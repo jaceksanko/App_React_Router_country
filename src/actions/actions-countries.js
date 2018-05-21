@@ -24,14 +24,14 @@ export function deleteCountry(id) {
     }
 };
 
-export function searchCountries(idsearchText) {
+export function searchCountries(searchText) {
     return {
         type: SEARCH_COUNTRIES,
-        idsearchText
+        searchText
     }
 };
 
-export function setCountries(name) {
+export function setContinent(name) {
     return {
         type: SET_CONTINENT,
         name
